@@ -1,8 +1,14 @@
 /* work sans font from google fonts */
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
 
+/* shared styles */
 * {
+    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-family: 'Work Sans', sans-serif;
+}
+.btn-primary{
+
 }
 
 header{
@@ -31,4 +37,19 @@ nav  li {
 nav li a{
     text-decoration: none;
     color: #424242;
+}
+/* banner style */
+
+.banner-content{
+    max-width: 800px;
+    text-align: center;
+    margin: 0 auto;
+}
+.banner-title{
+    font-size: 4rem;
+    font-weight: 700px;
+    color: #131313;
+}
+.banner-description{
+    color: #727272;
 }
