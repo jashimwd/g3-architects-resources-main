@@ -176,6 +176,21 @@ main{
 .sponsors-img-container img{
     width: 165px;
 }
+/* footere style */
+footer{
+    align-items: center;
+    width: 80%;
+    height: 100%;
+    margin-left: 150px;
+    margin-right: 20px;
+    padding: 10px;
+}
+.footer-one{
+    text-align: center;
+    background: #f1c691;
+    padding: 30px;
+    color: gray;
+}
 
 
 /* responsive media queries */
@@ -211,6 +226,9 @@ main{
 }
 .facts-card-container{
     gap: 20px;
+}
+footer{
+    margin-left: 10%;
 }
 }
 /* tablet or medium devices */
